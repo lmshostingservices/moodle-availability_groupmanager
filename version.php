@@ -31,7 +31,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $plugin->component = 'availability_groupmanager';
-$plugin->version   = 2026030400206;
+$plugin->version   = 2026030400;
 $plugin->requires  = 2022041900; // Moodle 4.0+
 $plugin->supported  = [400, 500];  // Moodle 4.0 to 5.x
 $plugin->maturity  = MATURITY_STABLE;
