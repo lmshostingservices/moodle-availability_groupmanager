@@ -31,11 +31,11 @@
 defined('MOODLE_INTERNAL') || die();
 
 $plugin->component = 'availability_groupmanager';
-$plugin->version   = 2026030400;
+$plugin->version   = 2026082901;
 $plugin->requires  = 2022041900; // Moodle 4.0+
 $plugin->supported  = [400, 500];  // Moodle 4.0 to 5.x
 $plugin->maturity  = MATURITY_STABLE;
-$plugin->release   = '2.0.6';
+$plugin->release   = '2.0.7'; // RELEASE RECOVERY: Republished the reviewed authoritative source under a new immutable tag because the historical tag contained a different source tree. No functional changes.
 $plugin->dependencies = [
     'local_groupmanager' => 2025121800
 ];
